@@ -1,0 +1,500 @@
+.mwLoginContainer {
+	position: relative;
+	width: 1280px;
+	height: 500px;
+	margin: 60px auto;
+	background: url(../../images/secure/loginbg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.mwWelcomLogin {
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	width: 480px;
+	height: 140px;
+	font-size: 45px;
+	font-family: 'Eras Medium ITC';
+	color: #c3c3e5;
+	opacity: 0.6;
+}
+
+.mwWelcomLogin span:first-child {
+	display: block;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.mwWelcomLogin span:nth-child(2) {
+	display: block;
+	float: right;
+}
+
+.mwBtnBuylogin {
+	position: absolute;
+	left: 270px;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	bottom: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Open Sans Bold';
+	font-weight:bold;
+	font-style: italic;
+	color: #333333;
+	background-color: #ffffff;
+	border: 0;
+	cursor: pointer;
+}
+
+.mwBoxLogin {
+	position: absolute;
+	top: 20px;
+	right: 18px;
+	width: 400px;
+	height: 380px;
+	padding: 20px 26px 32px 26px;
+	background-color: #ffffff;
+}
+
+.mwSecureTitle {
+	height: 30px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Open Sans Bold';
+	color: #333333;
+}
+
+.mwLoginInput {
+	position: relative;
+	width: 430px;
+	height: 150px;
+	margin-top: 5px;
+}
+
+.mwSecureInput {
+	margin-right: 25px;
+}
+
+.mwEyeIcon {
+	position: absolute;
+	right: 10px;
+	top: 40px;
+	width: 20px;
+	height: 20px;
+	background-image: url(../../images/icons/eye.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.mwEyeIcon.on {
+	background-image: url(../../images/icons/eyeactive.png);
+}
+
+.mwSecureItem,
+.mwSecureItemMove {
+	position: relative;
+	height: 49px;
+	padding-top: 20px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.mwSecureItem img,
+.mwSecureItemMove img {
+	float: left;
+	width: 12px;
+	height: 12px;
+	padding: 20px 15px 17px 25px;
+}
+
+.mwSecureItem input,
+.mwSecureItemMove input {
+	width: 345px;
+	height: 29px;
+	padding: 10px;
+	text-align: left;
+	color: #666666;
+	background-color: #ffffff;
+	border: 0;
+} 
+
+
+.mwSecureItemMove input {
+	float: right;
+}
+
+.mwIconEmail,
+.mwIconPassword {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 20px 15px 17px 25px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	transition: all 0.4s;
+}
+
+.mwIconEmail {
+	background-image: url(../../images/icons/email.png);
+}
+
+.mwIconPassword {
+	background-image: url(../../images/icons/password.png);
+}
+
+/* .mwLoginSingleError {
+	display: none;
+	position: absolute;
+	bottom: -28px;
+	left: 25px;
+	height: 24px;
+	font-size: 12px;
+	color: #ed5565;
+	line-height: 16px;
+} */
+
+.mwLoginTotalError {
+	display: none;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 398px;
+	height: 24px;
+	font-size: 12px;
+	color: #ed5565;
+	text-align: center;
+	line-height: 24px;
+	border: 1px dashed #ed5565;
+}
+
+/* .mwLoginSingleError .mwErrorIcon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -3px;
+	background: url(../../images/icons/error.png) no-repeat;
+	background-size: 100%;
+} */
+
+.mwForgotPassword {
+	height: 22px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.mwForgotPassword a {
+	font-size: 12px;
+	color: #1c84c6;
+}
+
+#mwInputEmail:focus+.mwIconEmail {
+	width: 11px;
+	height: 11px;
+	margin-top: 21px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#mwInputPassword:focus+.mwIconPassword {
+	width: 10px;
+	height: 10px;
+	margin-top: 21px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.mwBtnSign,
+.mwBtnRegister,
+.mwBtnCreateAccount,
+.mwBtnResetPassword {
+	display: inline-block;
+	height: 35px;
+	line-height: 33px;
+	font-size: 16px;
+}
+
+.mwBtnSign {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+.mwBtnPurple {
+	width: 100%;
+	text-align: center;
+	background-color: #5e4a86;
+	border: 1px solid #5e4a86;
+	border-radius: 2px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.mwBtnRegister {
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+
+.mwBtnPurpleOutline {
+	width: 100%;
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #5e4a86;
+	border-radius: 2px;
+	color: #5e4a86;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+.mwBtnResetPassword {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.mwSecureBtnGroup {
+	overflow: hidden;
+}
+
+.mwBtnPurpleOutline:hover {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.mwBtnCreateAccount {
+	margin-top: 40px;
+}
+
+.mwVerBox {
+	/* display: none; */
+	position: absolute;
+	top: 28px;
+	left: 6px !important;
+}
+
+.mwVerArrow {
+	display: block;
+	position: absolute;
+	background-image: url(../../images/slideverification/verArrow.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 8px;
+	background-position: 0 -8px;
+	overflow: hidden;
+	bottom: -7px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.re-btn {
+	float: right;
+	cursor: pointer;
+	color: #666666;
+	font-size: 12px;
+	margin-top: -22px;
+}
+
+.re-btn a {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 7px 0;
+	background-image: url(../../images/slideverification/sprite.3.2.0.png);
+	background-position: 0 -1179px;
+	cursor: pointer;
+}
+
+.re-btn span {
+	float: right;
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.ver-tips {
+	font-size: 12px;
+	padding: 0 8px;
+	color: #666666;
+}
+
+.slider-btn {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 0;
+	top: -7px;
+	z-index: 12;
+	cursor: pointer;
+	background-image: url(../../images/slideverification/sprite.3.2.0.png);
+	background-position: 0 -84px;
+	transition: inherit;
+}
+
+.mwSecureForm {
+	width: 452px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	background-color: #ffffff;
+	box-shadow: 0 6px 25px #eeeeee;
+}
+
+.mwBoxSecure {
+	width: 430px;
+	height: auto;
+	padding: 40px 20px;
+	background-color: #ffffff;
+}
+
+.mwResetPasswordText {
+	height: auto;
+	line-height: 15px;
+	margin-top: 18px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #999999;
+}
+
+.mwForgotSuccess {
+	display: flex;
+	height: 150px;
+	margin: 15px auto;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.mwForgotSuccess img {
+	width: 230px;
+}
+
+.mwAccountType {
+	width: 426px;
+	height: 80px;
+	margin-top: 15px;
+	background-color: #fcfcfc;
+}
+
+.mwAccountTypeTitle {
+	float: left;
+	width: 425px;
+	height: 21px;
+	line-height: 21px;
+	margin-top: 10px;
+	text-align: center;
+	color: #666666;
+}
+
+.mwAccountTypeItem {
+	position: relative;
+	float: left;
+	width: 213px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.mwAccountType ul li {
+	position: relative;
+}
+
+.mwAccountType ul li:first-child:after {
+	content: "";
+	position: absolute;
+	top: 18px;
+	right: 0;
+	width: 1px;
+	height: 14px;
+	background-color: #666666;
+}
+
+.mwAccountTypeItem img {
+	float: left;
+	width: 12px;
+	height: 12px;
+	padding: 19px 15px 17px 25px;
+}
+
+.mwRadio {
+	position: relative;
+	float: left;
+	width: 14px;
+	height: 14px;
+}
+
+.mwRegisterRadio {
+	margin-top: 18px;
+}
+
+.mwRadio input[type='radio'] {
+	display: none;
+}
+
+.mwRadio input[type="radio"]+label::before {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border: 1px solid #333333;
+	border-radius: 6px;
+}
+
+.mwRadio input[type="radio"]:checked+label::after {
+	content: " ";
+	position: absolute;
+	display: inline-block;
+	top: 3px;
+	left: 3px;
+	width: 6px;
+	height: 6px;
+	border-radius: 4px;
+	background-color: #333333;
+}
+
+
+.mwRadioTitle {
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin-left: 10px;
+	color: #333333;
+}
+
+.mwBusinessType {
+	display: none;
+	height: 150x;
+}
+
+.mwRegisterText {
+	height: 50px;
+	line-height: 15px;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+}
+
+.mwResetSucessText {
+	line-height: 20px;
+	text-align: center;
+	font-size: 15px;
+	color: #666666;
+}
+
+.mwhref {
+	color: #1c84c6;
+}
+
+.mwhref:hover {
+	text-decoration: underline;
+}

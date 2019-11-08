@@ -1,0 +1,237 @@
+
+.mwWidthBox {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.mwClearFix::after,
+.mwContainer::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.mwFLeft {
+    float: left;
+}
+
+.mwFRight {
+    float: right;
+}
+
+.mwHeader {
+    width: 100%;
+    min-width: 1280px;
+    height: 119px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #5e4a86;
+}
+
+.mwHeadTop {
+    height: 19px;
+    line-height: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.mwTopBar li {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.mwTopBar li a {
+    color: #666666;
+}
+
+.mwTopBar li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.mwTopBar li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 10px;
+}
+
+.mwTopBar li img {
+    height: 16px;
+}
+
+.mwTopBarLeft li img {
+    height: 20px;
+}
+.mwImgCircle {
+    border-radius: 50%;
+}
+
+.mwTopBar li span {
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.mwHeadContent {
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.mwHeadLog {
+    float: left;
+    width: 190px;
+    height: auto;
+    margin-top: 19px;
+}
+
+
+
+
+.mwTopMyAccount {
+    height: 30px;
+}
+
+.mwMyAccountMenu {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    width: 180px;
+    height: 345px;
+    padding: 15px;
+    background-color: #ffffff;
+    z-index: 99;
+    border: 1px solid #eeeeee;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mwTopMyAccount:hover .mwMyAccountMenu {
+    opacity: 1;
+    transition: all .3s ease-in;
+    visibility: visible;
+}
+
+.mwMyAccountMenu::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 0;
+    border-bottom: 8px solid #eeeeee;
+    border-top: 8px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    z-index: 999;
+}
+
+.mwMyAccountMenu::after {
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: -2px;
+    border-bottom: 6px solid #fafafa;
+    border-top: 6px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    z-index: 998;
+}
+
+.mwMyAccountName {
+    display: flex;
+    width: 180px;
+    height: 35px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mwMyAccountName img {
+    width: 34px;
+    height: 34px !important;
+    border-radius: 50%;
+}
+
+.mwMyAccountName div {
+    width: 146px;
+    height: 28px;
+    line-height: 14px;
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+
+.mwMyAccountDetail {
+    float: left;
+    width: 180px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.mwMyAccountDetail dt {
+    width: 180px;
+    height: 20px;
+    margin: 10px 0;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight:bold;
+    font-family: 'Open Sans Bold';
+    color: #333333;
+}
+
+.mwMyAccountDetail dd {
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 22px;
+    margin-left: 5px;
+    padding-left: 10px;
+    line-height: 22px;
+}
+
+.mwMyAccountDetail dd a {
+    font-size: 12px;
+    color: #666666;
+}
+
+.mwMyAccountDetail dt a:hover,
+.mwMyAccountDetail dd a:hover {
+    text-decoration: underline;
+    color: #1c84c6;
+}
+
+.mwMyAccountDetail dd::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 3px;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: #666666;
+}
+
+.mwMyAccountDetail dd a:hover {
+    text-decoration: underline;
+}
+
+.mwBtnMyAccount {
+    float: left;
+    width: 180px;
+    height: 25px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #5e4a86;
+    color: #5e4a86 !important;
+    cursor: pointer;
+}
+
+.mwBtnMyAccount:hover {
+    background-color: #5e4a86;
+    color: #ffffff !important;
+}
